@@ -1,4 +1,3 @@
-
 function somarNumeros() {
     let soma = 0;
     let continuar = true;
@@ -40,4 +39,3 @@ function contagemNasa () {
      }
 }
 
-somarNumeros();
