@@ -1,5 +1,6 @@
 function picoleteria(){
  let codigo = prompt("Digite o codigo do sabor escolhido (A ate I): ");
+ 
 switch (codigo){
         case 'a':
         alert ("Picole de Chocolate, valor em R$ 1,50");
