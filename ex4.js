@@ -8,7 +8,7 @@ for (let i =0; i <4; i++) {
 numeros.sort((a,b) => b - a);
 alert("Ordem decrescente: " + numeros);
 }
- ordena();
+
 
 
 

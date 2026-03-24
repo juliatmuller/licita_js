@@ -1,22 +1,15 @@
 
-function transformação(){
+function transformacao(){
 
-  for (let i =0; i <4; i++) {
-  numeros.push(Number(prompt("Digite um numero inteiro: ")));
-}
- let numero = 10;
-if (numero % 2 === 0) {
-  console.log(Par);
-} else {
-  console.log(Ímpar);
-}
+  let numero = parseInt(prompt("Digite um numero inteiro: "));
+  let resultado;
 
-let Par ={
-  soma = numero+1;
-}
+  if (numero % 2 === 0 ) {
+    resultado = numero + 1;
+    alert(" Valor final impar é: " + resultado)
+  } else{
+resultado = numero + 1;
+alert("Valor final par é " + resultado)
 
-let ímpar ={
-  soma = numero-1;
-}
-
+  }
 }
